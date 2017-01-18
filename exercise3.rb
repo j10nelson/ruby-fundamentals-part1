@@ -66,15 +66,25 @@ end
 3.times do
   puts "Chunky bacon!"
 end
+# => Chunky bacon!
+# => Chunky bacon!
+# => Chunky bacon!
 
 3.times { puts "Chunky bacon!" }
-
+# => Chunky bacon!
+# => Chunky bacon!
+# => Chunky bacon!
 
 one_to_five = (1..5)
 
 one_to_five.each do |num|
   puts num
 end
+# 1
+# 2
+# 3
+# 4
+# 5
 
 one_to_five = (1..5)
 
@@ -82,4 +92,9 @@ one_to_five.each do |num|
   puts (num**2).to_s
 end
 
+# 1
+# 4
+# 9
+# 16
+# 25
 
